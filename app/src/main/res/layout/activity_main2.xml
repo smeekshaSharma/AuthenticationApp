@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/E1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student's Name"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/E2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Father's Name"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:id="@+id/E3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trade"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:id="@+id/E4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:id="@+id/E5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email id"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:id="@+id/E6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="1dp"/>
+
+    <RadioButton
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"/>
+
+    <RadioButton
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"/>
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"/>
+
+
+</LinearLayout>
